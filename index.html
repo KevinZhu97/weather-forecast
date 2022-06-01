@@ -14,20 +14,21 @@
             <h3 class="weather-location">Guangzhou, China</h3>
             <div class="weather-main">
             <div class="weather-temperature">
-                <h1>69</h1>
+                <h1 class="weather-temperature-text">69</h1>
             </div>
             <div class="weather-details-container">
                 <div class="weather-details">
-                    <p>Feels like: 70 F</p>
-                    <p>Wind: 5 MPH</p>
-                    <p>Humidity: 69%</p>
+                    <p class="weather-feels-like">Feels like: 70 F</p>
+                    <p class="weather-wind">Wind: 5 MPH</p>
+                    <p class="weather-humidity">Humidity: 69%</p>
                 </div>
             </div>
             </div>
         </div>
         <div class="search-city">
-            <img src="search-svgrepo-com.svg" alt="search-icon">
+            <img src="search-svgrepo-com.svg" alt="search-icon" class="search-glass">
             <input type="text" id="search" placeholder="Search city">
+            <span class="error-message">No matching location found!</span>
         </div>
     </div>
     <script src="javascript.js"></script>
